@@ -30,3 +30,18 @@
 30 - locomotiva
 31 - musulmano
 32 - elisabetta
+
+
+
+
+
+
+import java.util.Random;
+
+public class GeneratoreNumeri {
+    public static void main(String[] args) {
+        Random rand = new Random();
+        int numeroCasuale = rand.nextInt(32) + 1;
+        System.out.println("Il numero casuale generato è: " + numeroCasuale);
+    }
+}
