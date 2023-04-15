@@ -5,6 +5,6 @@ import  it.castelli.impiccato.home.homeFrame;
 
 public class Main {
     public static void main(String[] args) {
-        new homeFrame();
+        new startFrame();
     }
 }

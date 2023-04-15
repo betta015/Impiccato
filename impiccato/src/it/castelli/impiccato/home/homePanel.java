@@ -24,16 +24,17 @@ public homePanel(homeFrame frame){
 }
 
     private void setLabelProperties() {
-    titolo.setPreferredSize(new Dimension(800,30));
-    titolo.setFont(new Font(null,Font.PLAIN,18));
+    titolo.setPreferredSize(new Dimension(400,30));
+    titolo.setFont(new Font(null,Font.PLAIN,24));
     titolo.setForeground(Color.white);
-    titolo.setBounds(100,30,800,30);
+    titolo.setBounds(350,50,400,30);
     titolo.setVisible(true);
     }
 
     private void setPanelProperties() {
         this.setBackground(Color.BLACK);
         this.setPreferredSize(new Dimension(1000,600));
+        this.setLayout(null);
         this.add(singola);
         this.add(multipla);
         this.add(titolo);
@@ -43,9 +44,9 @@ public homePanel(homeFrame frame){
 
 
     private void setButtonProperties() {
-        singola.setPreferredSize(new Dimension(200,30));
-        singola.setForeground(new Color(255,152,0));
-        singola.setBounds(250,315,200,30);
+        singola.setPreferredSize(new Dimension(300,50));
+        singola.setForeground(Color.WHITE);
+        singola.setBounds(175,250,300,50);
         singola.setContentAreaFilled(false);
         singola.setFocusPainted(false);
         singola.setBorder(new RoundedBorder(10));
@@ -58,9 +59,9 @@ public homePanel(homeFrame frame){
             }
         });
 
-        multipla.setPreferredSize(new Dimension(200,30));
-        multipla.setForeground(new Color(255,152,0));
-        multipla.setBounds(550,315,200,30);
+        multipla.setPreferredSize(new Dimension(300,50));
+        multipla.setForeground(Color.WHITE);
+        multipla.setBounds(525,250,300,50);
         multipla.setContentAreaFilled(false);
         multipla.setFocusPainted(false);
         multipla.setBorder(new RoundedBorder(10));
