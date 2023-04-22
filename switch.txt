@@ -1,0 +1,80 @@
+switch(val){
+            case 1: 
+                lettera='a';
+                break;
+            case 2: 
+                lettera='b';
+                break;
+            case 3: 
+                lettera='c';
+                break;
+            case 4: 
+                lettera='d';
+                break;
+            case 5: 
+                lettera='e';
+                break;
+            case 6: 
+                lettera='f';
+                break;
+            case 7: 
+                lettera='g';
+                break;
+            case 8: 
+                lettera='h';
+                break;
+            case 9: 
+                lettera='i';
+                break;
+            case 10: 
+                lettera='j';
+                break;
+            case 11: 
+                lettera='k';
+                break;
+            case 12: 
+                lettera='l';
+                break;
+            case 13: 
+                lettera='m';
+                break;
+            case 14: 
+                lettera='n';
+                break;
+            case 15: 
+                lettera='o';
+                break;
+            case 16: 
+                lettera='p';
+                break;
+            case 17: 
+                lettera='q';
+                break;
+            case 18:
+                lettera='r';
+                break;
+            case 19: 
+                lettera='s';
+                break;
+            case 20: 
+                lettera='t';
+                break;
+            case 21: 
+                lettera='u';
+                break;
+            case 22: 
+                lettera='v';
+                break;
+            case 23: 
+                lettera='w';
+                break;
+            case 24: 
+                lettera='x';
+                break;
+            case 25: 
+                lettera='y';
+                break;
+            case 26: 
+                lettera='z';
+                break;
+        }
