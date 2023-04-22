@@ -1,0 +1,13 @@
+import java.awt.*;
+
+public class LineDrawer extends Frame {
+   public void paint(Graphics g) {
+      g.setColor(Color.RED);
+      g.drawLine(20, 40, 100, 200);
+   }
+   public static void main(String args[]) {
+      Frame frame = new LineDrawer();
+      frame.setSize(200, 300);
+      frame.setVisible(true);
+   }
+}
