@@ -1,0 +1,13 @@
+        B.setPreferredSize(new Dimension(300,50));
+        B.setForeground(Color.WHITE);
+        B.setBounds(175,250,300,50);
+        B.setContentAreaFilled(false);
+        B.setFocusPainted(false);
+        B.setBorder(new RoundedBorder(10));
+        B.setVisible(true);
+        B.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                controlloLettera(2);
+            }
+        });
