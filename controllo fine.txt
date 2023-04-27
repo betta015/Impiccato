@@ -1,0 +1,19 @@
+public void controlloFine(){
+        int cont =0;
+        if(nErrori>10){
+            JOptionPane.showMessageDialog(this, "Hai perso!! Riprova, magari sarai più fortunato");
+        }else{
+            for(int i=0;i<lettereNascoste.size();i++){
+                if(lettereNascoste.elementAt(i).equals('_')){
+                    cont++;
+
+                }
+            }
+            if(cont==0){
+                JOptionPane.showMessageDialog(this, "Hai vinto! Hai fatto "+nErrori+" errori");
+            }
+        }
+            
+       
+  
+    }
