@@ -78,3 +78,15 @@ switch(val){
                 lettera='z';
                 break;
         }
+        
+        
+        
+        
+        
+        
+        
+        for(int i=0; i<lettere.size();i++){
+            if(!lettere.elementAt(i).equals(lettera)){
+                nErrori++;
+            }
+        }
